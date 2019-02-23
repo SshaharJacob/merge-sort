@@ -1,0 +1,23 @@
+By Shahar Jacob
+
+==================
+=  Description:  =
+==================
+Here I present a program that implements merge-sort so that the
+size of the buffer on which sorting is based is limited to 50 MB.
+
+For using, make sure output.txt is exist and empty.
+For regular sorting, use this parameters:
+A inputFile output.txt columnToSort tempPath
+For example: A textFile output.txt 2 /Desktop
+
+For selecting (sub-string), use this parameters:
+B (or C)  inputFile output.txt columnToSort tempPath columnToSelect subStringToSelect
+For example: B textFile output.txt 2 /Desktop 1 ab
+
+You can use the file I supplied fileGenrator.jar to generate files larger than the
+one I provided (textFile). for do so, use this command:
+java -jar path_of_utility output_file number_of_columns number_of_lines
+
+
+
