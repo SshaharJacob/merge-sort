@@ -4,7 +4,7 @@ By Shahar Jacob
 =  Description:  =
 ==================
 Here I present a program that implements merge-sort so that the
-size of the buffer on which sorting is based is limited to 50 MB.
+size of the buffer of the RAM is limited to 50 MB.
 
 For using, make sure output.txt is exist and empty.
 For regular sorting, use this parameters:
